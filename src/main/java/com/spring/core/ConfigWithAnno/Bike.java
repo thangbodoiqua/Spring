@@ -1,5 +1,10 @@
-package com.spring.core.ConfigWithJav;
+package com.spring.core.ConfigWithAnno;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component("bike")
+@Primary
 public class Bike implements Vihicle {
     @Override
     public void move() {

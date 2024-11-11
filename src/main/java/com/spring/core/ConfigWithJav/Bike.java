@@ -1,6 +1,6 @@
-package com.spring.core;
+package com.spring.core.ConfigWithJav;
 
-public class Bike implements Vihicle{
+public class Bike implements Vihicle {
     @Override
     public void move() {
         System.out.println("Bike is moveing");
