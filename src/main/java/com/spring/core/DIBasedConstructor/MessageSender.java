@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class MessageSender {
     private MessageService messageService;
     @Autowired
-    public MessageSender(@Qualifier("emailService") MessageService messageService){
+    public MessageSender(@Qualifier("smsService") MessageService messageService){
         this.messageService = messageService;
     }
     public void sendMessage(String message){
