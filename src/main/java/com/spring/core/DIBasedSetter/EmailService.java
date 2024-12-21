@@ -1,4 +1,4 @@
-package com.spring.core.DIBasedConstructor;
+package com.spring.core.DIBasedSetter;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;

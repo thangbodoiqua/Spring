@@ -1,9 +1,9 @@
-package com.spring.core.DIBasedConstructor;
+package com.spring.core.DIBasedSetter;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "com.spring.core.DIBasedConstructor")
+@ComponentScan(basePackages = "com.spring.core.DIBasedSetter")
 public class AppConfig {
 }

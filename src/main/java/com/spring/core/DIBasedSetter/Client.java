@@ -1,4 +1,4 @@
-package com.spring.core.DIBasedConstructor;
+package com.spring.core.DIBasedSetter;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

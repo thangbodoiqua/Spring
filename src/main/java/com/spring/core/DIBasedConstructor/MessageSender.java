@@ -1,4 +1,4 @@
-package com.spring.core.DI;
+package com.spring.core.DIBasedConstructor;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
